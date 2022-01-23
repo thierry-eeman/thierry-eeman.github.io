@@ -20,7 +20,7 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/astartes" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
             <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
