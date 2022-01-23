@@ -10,7 +10,7 @@
         <nuxt-link to="/artwork/reinhardt" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-orange-800">Hardware Heroes</h2>
             <figure>
               <img
                 class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
@@ -23,7 +23,7 @@
         <nuxt-link to="/artwork/astartes" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-orange-800">Hardware Heroes</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/warhammer.jpg" alt="">
@@ -35,7 +35,7 @@
         <nuxt-link to="/artwork/squares" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Creative Coding</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-teal-700">Creative Coding</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/squares.jpg" alt="">
@@ -44,10 +44,10 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/reaper" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-orange-800">Hardware Heroes</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/reaper.jpg" alt="">
@@ -56,10 +56,10 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/mandalorian" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-orange-800">Hardware Heroes</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/mandalorian.jpg" alt="">
@@ -68,10 +68,10 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/ascii" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Creative Coding</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-teal-700">Creative Coding</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/ascii.jpg" alt="">
@@ -80,10 +80,10 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/ichigo" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Hardware Heroes</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-orange-800">Hardware Heroes</h2>
             <figure>
               <img class="w-full block h-32 object-none object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/ichigo.jpg" alt="">
@@ -92,10 +92,10 @@
             </figure>
           </div>
         </nuxt-link>
-        <nuxt-link to="/artwork/reinhardt" class="col-span-3">
+        <nuxt-link to="/artwork/atoms" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Creative Coding</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-teal-700">Creative Coding</h2>
             <figure>
               <img class="w-full block h-32 object-cover object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/atoms.jpg" alt="">
@@ -107,7 +107,7 @@
         <nuxt-link to="/artwork/particles" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
-            <h2 class="text-lg p-3 text-right uppercase text-slate-600">Creative Coding</h2>
+            <h2 class="text-lg p-3 text-right uppercase text-teal-700">Creative Coding</h2>
             <figure>
               <img class="w-full block h-32 object-cover object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
                    src="~/assets/images/particles.jpg" alt="">

@@ -13,7 +13,7 @@
       <canvas id="canvas1" class="w-full z-2"></canvas>
       <PageHeader/>
       <div class="grid grid-cols-8 m-5 p-5 gap-3 z-1">
-        <h1 class="col-span-8 col-start-6 text-slate-200 text-4xl">Artwork Overview</h1>
+        <h1 class="col-span-8 col-start-6 text-slate-200 text-4xl z-0">Particle Distortion</h1>
       </div>
 
       <PageFooter />
