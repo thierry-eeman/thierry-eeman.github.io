@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{239:function(n,e,t){"use strict";t.r(e);var r={},c=t(43),component=Object(c.a)(r,(function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("\n  This is artwork "+n._s(n.$route.params.id)+"\n")])}),[],!1,null,"5c71a2dc",null);e.default=component.exports}}]);

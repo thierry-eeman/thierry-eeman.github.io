@@ -12,7 +12,7 @@
             <div
               class="grid grid-cols-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-2">
-                <img class="rounded-l-lg object-cover object-top h-40 w-10/12" src="assets/images/Leescoach.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-top h-56 w-10/12" src="~/assets/images/Leescoach.jpg" alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -54,7 +54,7 @@
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-40 w-10/12" src="assets/images/DeltaTechnics.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-10/12" src="~/assets/images/DeltaTechnics.jpg" alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -88,7 +88,7 @@
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-48 w-96" src="assets/images/HomeAssistant.jpg" width="120" height="200" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-96" src="~/assets/images/HomeAssistant.jpg" width="120" height="200" alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -120,7 +120,7 @@
             <div
               class="grid grid-cols-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-48 w-10/12" src="assets/images/RaceToTheFuture.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-10/12" src="~/assets/images/RaceToTheFuture.jpg" alt=""/>
               </a>
               <div class="p-5 col-span-1">
                 <a href="#">

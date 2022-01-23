@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{245:function(e,n,t){"use strict";t.r(n);var r={name:"ProjectId.vue"},c=t(43),component=Object(c.a)(r,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",[e._v("This is project number "+e._s(e.$route.params.id))])}),[],!1,null,"2c7f3354",null);n.default=component.exports}}]);

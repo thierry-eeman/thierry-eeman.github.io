@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{246:function(e,n,t){"use strict";t.r(n);var c={name:"ProjectIndex.vue"},r=t(43),component=Object(r.a)(c,(function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"inset-0 max-w-screen-2xl"})}),[],!1,null,"8e706876",null);n.default=component.exports}}]);

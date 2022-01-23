@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/home_assistant", {data:[{},{}],fetch:{},mutations:void 0});

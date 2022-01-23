@@ -5,7 +5,7 @@
       <!-- Background Images -->
       <div id="shapes" class="absolute inset-0">
         <div class="absolute" style="left:200px;top:250px;">
-          <img class="rounded-full border-4 border-rose-900 saturate-50 object-cover object-top h-72 w-72" src="assets/images/Mugshot.jpg" width="505" height="898" alt="">
+          <img class="rounded-full border-4 border-rose-900 saturate-50 object-cover object-top h-72 w-72" src="~/assets/images/Mugshot.jpg" width="505" height="898" alt="">
         </div>
         <!--        <div-->
         <!--          class="z-0 inline-block absolute bg-gradient-to-tr from-slate-800 to-slate-700 overflow-hidden"-->
@@ -82,7 +82,7 @@
 
     <!-- Section 3  Artwork-->
     <div
-      class="scroll-auto grid grid-cols-2 min-h-auto w-screen bg-gradient-to-t from-gray-200 to-slate-400 bg-teal-300"
+      class="scroll-auto grid grid-cols-2 min-h-auto w-screen bg-gradient-to-l from-cyan-900 to-slate-800 bg-teal-300"
     >
       <div class="grid grid-cols-3 col-span-1 col-start-1 p-5 opacity-100 rounded-xl content-center">
         <div class="drop-shadow-xl mx-20 col-span-2 col-start-2 content-center text-gray-800">
