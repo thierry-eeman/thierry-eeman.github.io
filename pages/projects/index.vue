@@ -12,7 +12,8 @@
             <div
               class="grid grid-cols-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-2">
-                <img class="rounded-l-lg object-cover object-top h-56 w-10/12" src="~/assets/images/Leescoach.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-top h-56 w-10/12" src="~/assets/images/Leescoach.jpg"
+                     alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -37,12 +38,12 @@
             </div>
           </NuxtLink>
         </div>
-
-        <!-- Row 2 -->
         <div
           class="col-span-1 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
           style="width:200px;height:200px;">
         </div>
+
+        <!-- Row 2 -->
         <div
           class="col-span-1 col-start-2 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
           style="width:200px;height:200px;">
@@ -54,7 +55,8 @@
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-56 w-10/12" src="~/assets/images/DeltaTechnics.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-10/12"
+                     src="~/assets/images/DeltaTechnics.jpg" alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -88,7 +90,8 @@
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-56 w-96" src="~/assets/images/HomeAssistant.jpg" width="120" height="200" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-96" src="~/assets/images/HomeAssistant.jpg"
+                     width="120" height="200" alt=""/>
               </a>
               <div class="p-5 col-span-2">
                 <a href="#">
@@ -120,7 +123,8 @@
             <div
               class="grid grid-cols-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a href="#" class="col-span-1">
-                <img class="rounded-l-lg object-cover object-center h-56 w-10/12" src="~/assets/images/RaceToTheFuture.jpg" alt=""/>
+                <img class="rounded-l-lg object-cover object-center h-56 w-10/12"
+                     src="~/assets/images/RaceToTheFuture.jpg" alt=""/>
               </a>
               <div class="p-5 col-span-1">
                 <a href="#">
@@ -144,9 +148,52 @@
             </div>
           </NuxtLink>
         </div>
+
+        <!-- Row 4 -->
+        <div
+          class="col-span-1 col-start-1 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
+          style="width:200px;height:200px;">
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="col-span-3 col-start-2 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4">
+          <NuxtLink to="/projects/smartdoc">
+            <div
+              class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <a href="#" class="col-span-1">
+                <img class="rounded-l-lg object-none object-center h-56 w-10/12"
+                     src="~/assets/images/adventofcode.jpg" alt=""/>
+              </a>
+              <div class="p-5 col-span-2">
+                <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Advent Of Code</h5>
+                </a>
+                <p class="font-normal text-gray-700 dark:text-gray-400">A fantastic puzzle coding contest to
+                  enhance your problem solving skills.</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I promised myself that I would achieve all 400 stars
+                by the end of 2022 and document them on this website. Stay tuned.</p>
+                <a href="#"
+                   class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700
+                    rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-yellow-600
+                     dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
+                  In Progress
+                  <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </NuxtLink>
+        </div>
+        <div
+          class="col-span-1 col-start-5 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
+          style="width:200px;height:200px;">
+        </div>
       </div>
     </div>
-
   </div>
 </template>
 
