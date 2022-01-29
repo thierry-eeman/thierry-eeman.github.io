@@ -116,6 +116,18 @@
             </figure>
           </div>
         </nuxt-link>
+        <nuxt-link to="/artwork/matrix" class="col-span-3">
+          <div
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50">
+            <h2 class="text-lg p-3 text-right uppercase text-teal-700">Creative Coding</h2>
+            <figure>
+              <img class="w-full block h-32 object-cover object-center rounded-b-2xl blur-sm brightness-50 hover:blur-none hover:brightness-100"
+                   src="~/assets/images/matrix.jpg" alt="">
+              <figcaption class="text-center text-md py-5 text-slate-500"><p>Artwork #010</p>
+                <p>Matrix Rain</p></figcaption>
+            </figure>
+          </div>
+        </nuxt-link>
       </div>
     </div>
   </div>
