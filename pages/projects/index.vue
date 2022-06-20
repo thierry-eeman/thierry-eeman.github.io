@@ -177,7 +177,7 @@
         <div
           class="col-span-2 col-start-4 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
         >
-          <NuxtLink to="/projects/home_assistant">
+          <NuxtLink to="/projects/racefuture">
             <div
               class="grid grid-cols-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >

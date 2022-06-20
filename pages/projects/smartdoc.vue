@@ -4,7 +4,9 @@
   >
     <PageHeader />
     <div class="grid grid-cols-5 m-5 p-5 gap-4">
-      <h1 class="col-span-5 col-start-4 mb-5 text-slate-200 text-4xl">
+      <PageFooter class="bottom-80 right-10" />
+      <SkillTree :images="images" />
+      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
         Smart Documentation System
       </h1>
       <div class="col-span-3 mx-3 pl-4">
@@ -34,7 +36,13 @@
 <script>
 export default {
   name: 'SmartDoc',
-  data: () => ({}),
+  data: () => ({
+    images: [
+      { id: 1, name: 'Laravel', url: 'https://www.laravel.com/' },
+      { id: 2, name: 'PHP', url: 'https://www.php.net/' },
+      { id: 3, name: 'MySQL', url: 'https://www.mysql.com/' },
+    ],
+  }),
   mounted() {},
   methods: {},
 }

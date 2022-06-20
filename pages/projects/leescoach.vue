@@ -4,7 +4,9 @@
   >
     <PageHeader />
     <div class="grid grid-cols-5 m-5 p-5 gap-4">
-      <h1 class="col-span-5 col-start-4 mb-5 text-slate-200 text-4xl">
+      <PageFooter class="bottom-80 right-10" />
+      <SkillTree :images="images" />
+      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
         De Digitale Leescoach
       </h1>
       <div class="col-span-2 mx-3 pl-4 text-slate-200 text-2xl">
@@ -85,28 +87,6 @@
           />
         </figure>
       </div>
-      <div
-        class="col-span-3 col-start-1 mx-3 pl-4 border border-emerald-700 rounded-xl"
-      >
-        <div class="grid grid-cols-8 col-span-3">
-          <h2 class="text-fuchsia-400 text-2xl my-4 col-span-8">
-            Trained Skills
-          </h2>
-          <div
-            v-for="image in images"
-            :key="image.id"
-            class="col-span-1 mb-3 px-2"
-          >
-            <figure>
-              <img
-                class="object-cover object-center"
-                :src="require(`~/assets/images/logo/${image.name}.png`)"
-                :alt="`${image.name}`"
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
@@ -116,8 +96,8 @@ export default {
   name: 'LeesCoach',
   data: () => ({
     images: [
-      { id: 1, name: 'JavaScript' },
-      { id: 2, name: 'wordpress' },
+      { id: 1, name: 'JavaScript', url: 'https://www.javascript.com/' },
+      { id: 2, name: 'wordpress', url: 'https://wordpress.com/nl/' },
     ],
   }),
   mounted() {},
