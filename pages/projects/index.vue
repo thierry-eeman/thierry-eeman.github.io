@@ -58,16 +58,10 @@
             </div>
           </NuxtLink>
         </div>
-        <div
-          class="col-span-1 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
-          style="width: 200px; height: 200px"
-        ></div>
+        <OrbDivider />
 
         <!-- Row 2 -->
-        <div
-          class="col-span-1 col-start-2 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
-          style="width: 200px; height: 200px"
-        ></div>
+        <OrbDivider class="col-start-2" />
         <!-- Card 2 -->
         <div
           class="col-span-3 col-start-3 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
@@ -169,10 +163,7 @@
             </div>
           </NuxtLink>
         </div>
-        <div
-          class="col-span-1 col-start-3 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
-          style="width: 200px; height: 200px"
-        ></div>
+        <OrbDivider />
         <!-- Card 4 -->
         <div
           class="col-span-2 col-start-4 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
@@ -202,9 +193,9 @@
                 </p>
                 <a
                   href="#"
-                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800"
                 >
-                  To Start
+                  Finished
                   <svg
                     class="ml-2 -mr-1 w-4 h-4"
                     fill="currentColor"
@@ -224,10 +215,7 @@
         </div>
 
         <!-- Row 4 -->
-        <div
-          class="col-span-1 col-start-1 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
-          style="width: 200px; height: 200px"
-        ></div>
+        <OrbDivider class="col-start-1" />
         <!-- Card 2 -->
         <div
           class="col-span-3 col-start-2 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
@@ -281,10 +269,7 @@
             </div>
           </NuxtLink>
         </div>
-        <div
-          class="col-span-1 col-start-5 m-auto z-0 drop-shadow-xl opacity-40 bg-gradient-to-tr from-slate-900 to-slate-700 rounded-full"
-          style="width: 200px; height: 200px"
-        ></div>
+        <OrbDivider class="col-start-5" />
       </div>
     </div>
   </div>

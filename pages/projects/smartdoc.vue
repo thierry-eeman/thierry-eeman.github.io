@@ -4,11 +4,12 @@
   >
     <PageHeader />
     <div class="grid grid-cols-5 m-5 p-5 gap-4">
-      <PageFooter class="bottom-80 right-10" />
+      <PageFooter class="top-5 right-1/2" />
       <SkillTree :images="images" />
-      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
-        Smart Documentation System
-      </h1>
+      <div class="col-span-2 col-start-4">
+        <h1 class="col-span-2 mb-5 text-slate-200 text-4xl">Smart Documentation System</h1>
+        <div class="col-span-1 col-end-2 mt-5"><PosterModal /></div>
+      </div>
       <div class="col-span-3 mx-3 pl-4">
         <figure>
           <img

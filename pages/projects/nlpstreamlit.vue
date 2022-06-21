@@ -4,10 +4,8 @@
 
 <script>
 export default {
-  name: "HomeAssistant"
+  name: 'NlpStreamlit',
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
