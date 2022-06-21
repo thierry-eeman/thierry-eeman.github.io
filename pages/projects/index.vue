@@ -251,9 +251,9 @@
                 </p>
                 <a
                   href="#"
-                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800"
                 >
-                  In Progress
+                  Finished
                   <svg
                     class="ml-2 -mr-1 w-4 h-4"
                     fill="currentColor"

@@ -27,6 +27,7 @@ export default {
       { id: 4, name: 'Keras', url: 'https://www.keras.io/' },
       { id: 5, name: 'Tensorflow', url: 'https://www.tensorflow.org/' },
     ],
+    poster: 'RaceToTheFuture',
   }),
   mounted() {},
   methods: {},

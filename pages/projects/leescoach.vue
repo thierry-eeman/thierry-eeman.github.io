@@ -3,7 +3,7 @@
     class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen"
   >
     <PageHeader />
-    <div class="grid grid-cols-5 m-5 p-5 gap-4">
+    <div class="grid grid-cols-5 m-5 p-5 gap-y-10">
       <ProjectIntro
         :title="title"
         :github="github"
@@ -63,6 +63,7 @@
         </figure>
       </div>
       <div class="col-span-3 col-start-1 pl-4 text-2xl">
+        <h2 class="text-rose-400">Challenge</h2>
         <p class="text-slate-200 text-lg mt-4 text-justify">
           The biggest challenge for this project was inserting the custom code
           snippets for the Chart.js visualisation as well as the custom PDF
@@ -79,7 +80,7 @@
           many students will contribute to it in the future.
         </p>
       </div>
-      <div class="col-span-2 mx-3 pl-4 text-2xl">
+      <div class="col-span-2 mx-3 mt-4 pl-4 text-2xl">
         <figure>
           <img
             class="object-cover object-left-top rounded-xl drop-shadow-xl"

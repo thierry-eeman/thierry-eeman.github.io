@@ -4,11 +4,12 @@
   >
     <PageHeader />
     <div class="grid grid-cols-5 m-5 p-5 gap-y-20">
-      <PageFooter class="top-5 right-1/2" />
-      <SkillTree :images="images" />
-      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
-        Terms of Service Summarization
-      </h1>
+      <ProjectIntro
+        :title="title"
+        :github="github"
+        :images="images"
+        :poster="poster"
+      />
       <div class="col-span-2 mx-3 pl-4 text-slate-200 text-2xl">
         <h2 class="text-lime-400">Project Overview</h2>
         <p class="text-lg mt-4 text-justify">
@@ -30,12 +31,15 @@
 export default {
   name: 'SmartDoc',
   data: () => ({
+    title: 'Legal Text Summarization',
+    github: 'private',
     images: [
       { id: 1, name: 'Python', url: 'https://www.laravel.com/' },
       { id: 2, name: 'Streamlit', url: 'https://www.php.net/' },
       { id: 3, name: 'MySQL', url: 'https://www.mysql.com/' },
       { id: 4, name: 'AI', url: 'https://' },
     ],
+    poster: 'PlainLegal',
   }),
   mounted() {},
   methods: {},

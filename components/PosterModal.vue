@@ -31,7 +31,7 @@
     </div>
     <div
       v-if="toggleModal"
-      class="absolute z-40 inset-0 opacity-50 bg-black h-full w-full"
+      class="absolute z-40 inset-0 opacity-90 bg-black h-screen w-full"
     ></div>
   </div>
 </template>
