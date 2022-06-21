@@ -3,12 +3,13 @@
     class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen"
   >
     <PageHeader />
-    <div class="grid grid-cols-5 m-5 p-5 gap-y-20">
-      <PageFooter class="top-5 right-1/2" />
-      <SkillTree :images="images" />
-      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
-        De Digitale Leescoach
-      </h1>
+    <div class="grid grid-cols-5 m-5 p-5 gap-4">
+      <ProjectIntro
+        :title="title"
+        :github="github"
+        :images="images"
+        :poster="poster"
+      />
       <div class="col-span-2 mx-3 pl-4 text-slate-200 text-2xl">
         <h2 class="text-lime-400">Project Overview</h2>
         <p class="text-lg mt-4 text-justify">
@@ -95,10 +96,13 @@
 export default {
   name: 'LeesCoach',
   data: () => ({
+    title: 'Digital Reading Coach',
+    github: 'https://leescoach.thomasmore.be/',
     images: [
       { id: 1, name: 'JavaScript', url: 'https://www.javascript.com/' },
       { id: 2, name: 'wordpress', url: 'https://wordpress.com/nl/' },
     ],
+    poster: 'ReadingCoach',
   }),
   mounted() {},
   methods: {},

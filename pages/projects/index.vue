@@ -11,7 +11,7 @@
         <!-- Row 1 -->
         <!-- Card 1 -->
         <div
-          class="col-span-4 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
+          class="col-span-4 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4 outline-none active:outline-none focus:outline-none"
         >
           <NuxtLink to="/projects/leescoach">
             <div
@@ -117,14 +117,14 @@
         <div
           class="col-span-2 col-start-1 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
         >
-          <NuxtLink to="/projects/home_assistant">
+          <NuxtLink to="/projects/nlpstreamlit">
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
               <a href="#" class="col-span-1">
                 <img
-                  class="rounded-l-lg object-cover object-center h-56 w-96"
-                  src="~/assets/images/HomeAssistant.jpg"
+                  class="rounded-l-lg object-cover object-left h-56 w-96"
+                  src="~/assets/images/NLP.png"
                   width="120"
                   height="200"
                   alt=""
@@ -135,17 +135,18 @@
                   <h5
                     class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
                   >
-                    Home Assistant
+                    Terms of Service Summarization
                   </h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  An intuitive UI for Home Automation.
+                  An NLP approach to summarizing legal documents to a list of
+                  bullet points.
                 </p>
                 <a
                   href="#"
-                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800"
                 >
-                  To Start
+                  In progress
                   <svg
                     class="ml-2 -mr-1 w-4 h-4"
                     fill="currentColor"
@@ -215,18 +216,75 @@
         </div>
 
         <!-- Row 4 -->
-        <OrbDivider class="col-start-1" />
+        <OrbDivider class="col-start-2" />
         <!-- Card 2 -->
         <div
-          class="col-span-3 col-start-2 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
+          class="col-span-3 col-start-3 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
         >
-          <NuxtLink to="/projects/smartdoc">
+          <NuxtLink to="/projects/concreteprinter">
             <div
               class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
               <a href="#" class="col-span-1">
                 <img
-                  class="rounded-l-lg object-none object-center h-56 w-10/12"
+                  class="rounded-l-lg object-cover object-center h-56 w-10/12"
+                  src="~/assets/images/Concrete Printer.jpg"
+                  alt=""
+                />
+              </a>
+              <div class="p-5 col-span-2">
+                <a href="#">
+                  <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                  >
+                    Leflab Concrete Printer
+                  </h5>
+                </a>
+                <p class="font-normal text-gray-700 dark:text-gray-400">
+                  In collaboration with three other disciplines, we orchestrated
+                  a successful migration of the Kamp C Cobod conrete printer to
+                  Thomas More.
+                </p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  We helped create custom slicer software and data
+                  visualisation.
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-rose-700 rounded-lg hover:bg-rose-800 focus:ring-4 focus:ring-blue-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800"
+                >
+                  In Progress
+                  <svg
+                    class="ml-2 -mr-1 w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </NuxtLink>
+        </div>
+
+        <!-- Row 5 -->
+        <OrbDivider class="col-start-1" />
+        <!-- Card 2 -->
+        <div
+          class="col-span-3 col-start-2 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4"
+        >
+          <NuxtLink to="/projects/adventofcode">
+            <div
+              class="grid grid-cols-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#" class="col-span-1">
+                <img
+                  class="rounded-l-lg object-cover object-center h-56 w-10/12"
                   src="~/assets/images/adventofcode.jpg"
                   alt=""
                 />

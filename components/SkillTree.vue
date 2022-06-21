@@ -7,15 +7,15 @@
         Trained Skills <span class="text-slate-700">for this project</span>
       </h2>
       <div v-for="image in images" :key="image.id" class="col-span-1 mb-3 px-2">
-        <a :href="`${image.url}`">
-          <figure>
+        <figure>
+          <a :href="`${image.url}`">
             <img
               class="object-cover object-center"
               :src="require(`~/assets/images/logo/${image.name}.png`)"
               :alt="`${image.name}`"
             />
-          </figure>
-        </a>
+          </a>
+        </figure>
       </div>
     </div>
   </div>

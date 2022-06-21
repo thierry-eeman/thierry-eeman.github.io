@@ -4,11 +4,12 @@
   >
     <PageHeader />
     <div class="grid grid-cols-5 m-5 p-5 gap-4">
-      <PageFooter class="bottom-80 right-10" />
-      <SkillTree :images="images" />
-      <h1 class="col-span-2 col-start-4 mb-5 text-slate-200 text-4xl">
-        Race to the Future
-      </h1>
+      <ProjectIntro
+        :title="title"
+        :github="github"
+        :images="images"
+        :poster="poster"
+      />
     </div>
   </div>
 </template>
@@ -17,7 +18,15 @@
 export default {
   name: 'RaceFuture',
   data: () => ({
-    images: [{ id: 1, name: 'Docker', url: 'https://www.docker.com/' }],
+    title: 'Race to the Future',
+    github: 'https://github.com/jonasclaes/smart-documentation-system',
+    images: [
+      { id: 1, name: 'Docker', url: 'https://www.docker.com/' },
+      { id: 2, name: 'Python', url: 'https://www.python.org' },
+      { id: 3, name: 'AI', url: '' },
+      { id: 4, name: 'Keras', url: 'https://www.keras.io/' },
+      { id: 5, name: 'Tensorflow', url: 'https://www.tensorflow.org/' },
+    ],
   }),
   mounted() {},
   methods: {},
