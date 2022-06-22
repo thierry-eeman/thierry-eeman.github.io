@@ -46,10 +46,10 @@ export default {
     title: 'Race to the Future',
     github: 'https://github.com/jonasclaes/smart-documentation-system',
     images: [
-      { id: 1, name: 'RaspberryPi', url: 'https://www.docker.com/' },
+      { id: 1, name: 'RaspberryPi', url: 'https://www.raspberrypi.org/' },
       { id: 2, name: 'Docker', url: 'https://www.docker.com/' },
       { id: 3, name: 'Python', url: 'https://www.python.org' },
-      { id: 4, name: 'AI', url: '' },
+      { id: 4, name: 'AI', url: 'https://www.deepmind.com/' },
       { id: 5, name: 'Keras', url: 'https://www.keras.io/' },
       { id: 6, name: 'Tensorflow', url: 'https://www.tensorflow.org/' },
     ],

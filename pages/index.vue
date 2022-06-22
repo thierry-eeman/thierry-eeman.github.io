@@ -176,7 +176,7 @@
         </div>
       </div>
     </div>
-    <PageFooter />
+    <PageFooter class="absolute right-20" />
   </div>
 </template>
 

@@ -98,6 +98,15 @@
           />
         </figure>
       </div>
+      <div class="col-span-2 mx-auto pl-4">
+        <figure>
+          <img
+            class="object-cover object-left-top rounded-xl drop-shadow-xl"
+            src="~/assets/images/ConcretePrinter grades.png"
+            alt=""
+          />
+        </figure>
+      </div>
     </div>
   </div>
 </template>
@@ -109,12 +118,20 @@ export default {
     title: '3D Concrete Printing',
     github: 'https://github.com/itfactory-di/3DCP_Slicer_Grasshopper3d',
     images: [
-      { id: 1, name: 'Csharp', url: '' },
-      { id: 2, name: 'Docker', url: '' },
-      { id: 3, name: 'OPC UA', url: '' },
-      { id: 4, name: 'Node Red', url: '' },
-      { id: 5, name: 'Rhinoceros3D', url: '' },
-      { id: 6, name: 'GrassHopper', url: '' },
+      {
+        id: 1,
+        name: 'Csharp',
+        url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+      },
+      { id: 2, name: 'Docker', url: 'https://www.docker.com/' },
+      {
+        id: 3,
+        name: 'OPC UA',
+        url: 'https://opcfoundation.org/about/opc-technologies/opc-ua/',
+      },
+      { id: 4, name: 'Node Red', url: 'https://nodered.org/' },
+      { id: 5, name: 'Rhinoceros3D', url: 'https://www.rhino3d.com/' },
+      { id: 6, name: 'GrassHopper', url: 'https://www.grasshopper3d.com/' },
     ],
     poster: 'ConcretePrinter',
   }),
