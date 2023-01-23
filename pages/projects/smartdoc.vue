@@ -3,14 +3,14 @@
     class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen"
   >
     <PageHeader />
-    <div class="grid grid-cols-5 m-5 p-5 gap-y-12">
+    <div class="grid grid-cols-5 m-5 mx-64 p-5 gap-y-12">
       <ProjectIntro
         :title="title"
         :github="github"
         :images="images"
         :poster="poster"
       />
-      <div class="col-span-3 mx-3 pl-4">
+      <div class="col-span-3 mx-3 mt-16 pl-4">
         <figure>
           <img
             class="object-cover object-left-top rounded-xl drop-shadow-xl"
@@ -19,7 +19,7 @@
           />
         </figure>
       </div>
-      <div class="col-span-2 col-start-4 pl-4 text-slate-300 text-2xl">
+      <div class="col-span-2 col-start-4 pl-4 mb-20 text-slate-300 text-2xl">
         <h2 class="text-lime-400">General Information</h2>
         <p class="text-lg mt-4 text-justify">
           This project was completed for Delta Technics, a company in
