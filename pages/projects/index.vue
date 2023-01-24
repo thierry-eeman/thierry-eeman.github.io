@@ -166,7 +166,7 @@
         <div
           class="col-span-2 hover:drop-shadow-xl hover:scale-105 transition ease-in-out duration-500 rounded-md p-4 outline-none active:outline-none focus:outline-none"
         >
-          <NuxtLink to="/projects/swarm">
+          <NuxtLink to="/projects/swarmintelligence">
             <div
               class="grid grid-cols-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >

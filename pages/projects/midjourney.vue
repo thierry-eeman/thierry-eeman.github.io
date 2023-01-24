@@ -107,9 +107,10 @@
         </div>
       </div>
     </section>
-    </div>
+  </div>
 </template>
 
+<script>
 export default {
   name: 'MidjourneyImageGenerator',
   data: () => ({
