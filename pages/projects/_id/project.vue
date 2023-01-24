@@ -2,13 +2,10 @@
   <div>Hello</div>
 </template>
 
-
 <script>
 export default {
-  name: "ProjectPage.vue"
+  name: 'ProjectPage',
 }
 </script>
 
-<style lang="scss"  scoped>
-
-</style>
+<style lang="scss" scoped></style>
