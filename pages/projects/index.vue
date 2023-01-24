@@ -4,7 +4,7 @@
       class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen"
     >
       <PageHeader />
-      <div class="grid grid-cols-5 m-5 p-5 gap-4">
+      <div class="grid grid-cols-5 m-5 mx-32 p-5 gap-4">
         <h1 class="col-span-5 col-start-4 text-slate-200 text-4xl">
           Project Overview
         </h1>
