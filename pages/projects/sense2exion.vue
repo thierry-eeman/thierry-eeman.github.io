@@ -99,7 +99,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="~/assets/images/NLP HuggingFace.jpg"
+                src="~/assets/images/Sense2Exion.jpg"
               />
             </div>
           </div>
@@ -108,7 +108,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="~/assets/images/Sense2Exion (blog bottom 2).jpg"
               />
             </div>
           </div>
@@ -117,7 +117,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="~/assets/images/Sense2Exion (blog bottom 3).png"
               />
             </div>
           </div>
@@ -136,8 +136,28 @@ export default {
     images: [
       {
         id: 1,
-        name: 'Midjourney',
-        url: 'https://midjourney.com/',
+        name: 'Flask',
+        url: 'https://flask.palletsprojects.com/en/2.2.x/',
+      },
+      {
+        id: 2,
+        name: 'Neo4J',
+        url: 'https://neo4j.com/',
+      },
+      {
+        id: 3,
+        name: 'Tailwind',
+        url: 'https://tailwindcss.com/',
+      },
+      {
+        id: 4,
+        name: 'DaisyUI',
+        url: 'https://daisyui.com/',
+      },
+      {
+        id: 5,
+        name: 'Azure',
+        url: 'https://azure.microsoft.com/nl-nl',
       },
     ],
     poster: '',

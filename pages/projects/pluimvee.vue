@@ -134,8 +134,28 @@ export default {
     images: [
       {
         id: 1,
-        name: 'Midjourney',
-        url: 'https://midjourney.com/',
+        name: 'Visual Studio',
+        url: 'https://visualstudio.microsoft.com/',
+      },
+      {
+        id: 2,
+        name: 'PowerBI',
+        url: 'https://powerbi.microsoft.com/nl-nl/',
+      },
+      {
+        id: 3,
+        name: 'SSIS',
+        url: 'https://powerbi.microsoft.com/nl-nl/',
+      },
+      {
+        id: 4,
+        name: 'Python',
+        url: 'https://www.python.org/',
+      },
+      {
+        id: 5,
+        name: 'MySQL',
+        url: 'https://www.mysql.com/',
       },
     ],
     poster: '',

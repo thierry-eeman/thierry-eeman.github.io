@@ -100,7 +100,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="~/assets/images/NLP HuggingFace.jpg"
+                src="~/assets/images/Wakosta (blog bottom 1).jpg"
               />
             </div>
           </div>
@@ -109,7 +109,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="~/assets/images/Wakosta (blog bottom 2).jpg"
               />
             </div>
           </div>
@@ -118,7 +118,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="~/assets/images/Wakosta (blog bottom 3).jpg"
               />
             </div>
           </div>
@@ -139,6 +139,26 @@ export default {
         id: 1,
         name: 'Ionic',
         url: 'https://ionicframework.com/',
+      },
+      {
+        id: 2,
+        name: 'Scrum',
+        url: 'https://scrum.org/',
+      },
+      {
+        id: 3,
+        name: 'Angular',
+        url: 'https://angular.io/',
+      },
+      {
+        id: 4,
+        name: 'Android',
+        url: 'https://www.android.com/',
+      },
+      {
+        id: 5,
+        name: 'iOS',
+        url: 'https://www.apple.com/ios/ios-16/',
       },
     ],
     poster: '',

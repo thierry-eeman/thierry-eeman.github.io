@@ -25,13 +25,14 @@
           In today's data-driven world, the ability to process large amounts of
           data quickly and efficiently is crucial. One way to achieve this is by
           using a GPU-cluster, a group of computers that work together to
-          perform complex calculations. In this project, I set up a GPU-cluster
-          consisting of 18 computers, utilizing Flatcar Linux and Kubernetes.
-          The cluster consisted of 9 dual-GPU computers with NVIDIA Quadro K620
-          GPUs and 9 CPU computers for more general tasks. Utilizing CoreOS
-          Ignition files, which are JSON files that describe the desired state
-          of the system, I was able to set up the operating system and install
-          Kubernetes onto the worker nodes, bootstrapping the entire cluster.
+          perform complex calculations. In this project, I assisted in setting
+          up a GPU-cluster consisting of 18 computers, utilizing Flatcar Linux
+          and Kubernetes. The cluster consisted of 9 dual-GPU computers with
+          NVIDIA Quadro K620 GPUs and 9 CPU computers for more general tasks.
+          Utilizing CoreOS Ignition files, which are JSON files that describe
+          the desired state of the system, I was able to set up the operating
+          system and install Kubernetes onto the worker nodes, bootstrapping the
+          entire cluster.
         </p>
         <h3 class="font-bold mb-3">Configuration of the cluster</h3>
         <p class="text-lg mb-3 text-justify">
@@ -102,7 +103,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="~/assets/images/GPU Cluster (blog bottom 2).jpg"
               />
             </div>
           </div>
@@ -111,7 +112,7 @@
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="~/assets/images/FlatCar.webp"
               />
             </div>
           </div>
@@ -130,8 +131,28 @@ export default {
     images: [
       {
         id: 1,
-        name: 'Midjourney',
-        url: 'https://midjourney.com/',
+        name: 'Kubernetes',
+        url: 'https://kubernetes.io/',
+      },
+      {
+        id: 2,
+        name: 'CoreOS',
+        url: 'https://getfedora.org/en/coreos?stream=stable',
+      },
+      {
+        id: 3,
+        name: 'NVidia',
+        url: 'https://www.nvidia.com/nl-nl/',
+      },
+      {
+        id: 4,
+        name: 'Hashtopolis',
+        url: 'https://github.com/hashtopolis/server',
+      },
+      {
+        id: 5,
+        name: 'Typhoon',
+        url: 'https://typhoon.psdn.io/',
       },
     ],
     poster: '',

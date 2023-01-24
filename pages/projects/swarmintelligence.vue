@@ -118,8 +118,8 @@ export default {
     images: [
       {
         id: 1,
-        name: 'Midjourney',
-        url: 'https://midjourney.com/',
+        name: 'AI',
+        url: 'https://www.deepmind.com/',
       },
     ],
     poster: '',
