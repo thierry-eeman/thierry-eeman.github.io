@@ -17,7 +17,7 @@
         </h2>
         <figure class="w-full mb-5 flex justify-center">
           <img
-            src="~/assets/images/budgetbeheer (blog intro).png"
+            src="~/assets/images/Budgetbeheer (blog intro).png"
             alt="A piggybank"
           />
         </figure>
