@@ -9,30 +9,40 @@
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start lg:justify-end"
         >
           <div class="flex-shrink-0 flex items-center">
-            <img
-              class="block h-8 w-auto"
-              src=""
-              alt=""
-            />
+            <img class="block h-8 w-auto" src="" alt="" />
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <NuxtLink
                 to="/"
                 class="text-slate-400 hover:text-teal-300 px-3 py-2 rounded-md text-sm font-medium"
-                aria-current="page">Home</NuxtLink>
+                aria-current="page"
+                >Home</NuxtLink
+              >
+              <NuxtLink
+                to="/internship"
+                class="text-slate-400 hover:text-blue-300 px-3 py-2 rounded-md text-sm font-medium"
+                aria-current="page"
+                >Internship</NuxtLink
+              >
               <NuxtLink
                 to="/projects"
                 class="text-slate-400 hover:text-orange-300 px-3 py-2 rounded-md text-sm font-medium"
-                aria-current="page">Projects</NuxtLink>
+                aria-current="page"
+                >Projects</NuxtLink
+              >
               <NuxtLink
                 to="/artwork"
                 class="text-slate-400 hover:text-pink-300 px-3 py-2 rounded-md text-sm font-medium"
-                aria-current="page">Artwork</NuxtLink>
+                aria-current="page"
+                >Artwork</NuxtLink
+              >
               <NuxtLink
                 to="/about"
                 class="text-slate-400 hover:text-lime-300 px-3 py-2 rounded-md text-sm font-medium"
-                aria-current="page">About</NuxtLink>
+                aria-current="page"
+                >About</NuxtLink
+              >
             </div>
           </div>
         </div>
@@ -46,19 +56,33 @@
         <NuxtLink
           to="/"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          aria-current="page">Home</NuxtLink>
+          aria-current="page"
+          >Home</NuxtLink
+        >
+        <NuxtLink
+          to="/internship"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          aria-current="page"
+          >Internship</NuxtLink
+        >
         <NuxtLink
           to="/projects"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          aria-current="page">Projects</NuxtLink>
+          aria-current="page"
+          >Projects</NuxtLink
+        >
         <NuxtLink
           to="/artwork"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          aria-current="page">Artwork</NuxtLink>
+          aria-current="page"
+          >Artwork</NuxtLink
+        >
         <NuxtLink
           to="/about"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          aria-current="page">About</NuxtLink>
+          aria-current="page"
+          >About</NuxtLink
+        >
       </div>
     </div>
   </nav>
