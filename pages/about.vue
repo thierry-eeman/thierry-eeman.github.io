@@ -25,7 +25,7 @@
         <div id="MyLife" class="col-span-1 px-6 mr-8">
           <h2 class="text-teal-500 mb-3 text-2xl">Who am i?</h2>
           <p class="text-slate-300 text-justify">
-            I'm a 39-year old student at the IT Factory in Thomas More Geel,
+            I'm a 38-year old student at the IT Factory in Thomas More Geel,
             Belgium. At the moment I'm in my final stretch to graduate as an IT
             professional, with a special interest in Artifical Intelligence and
             DevOps.
@@ -49,7 +49,7 @@
             I took the leap, who knows where the road will take me...
           </p>
         </div>
-        <div id="WhatDefinesMe" class="col-span-1 px-6 mb-0">
+        <div id="WhatDefinesMe" class="col-span-1 px-6 mb-0 mr-24">
           <h2 class="text-teal-500 mb-3 text-2xl">Me in words.</h2>
           <div class="flex col-span-1 justify-center">
             <img
@@ -61,13 +61,18 @@
           </div>
           <div id="MyCarreer">
             <h2 class="text-teal-500 mb-3 mt-12 text-2xl">My Carreer.</h2>
-            <a href="/Curriculum Vitae (2023) - Thierry Eeman.pdf" download="">
-              <p
-                class="text-pink-600 text-xl text-center mt-5 border-teal-500 border rounded-xl py-6"
+            <div>
+              <a
+                href="/Curriculum Vitae (2023) - Thierry Eeman.pdf"
+                download=""
               >
-                Download my curriculum vitae here.
-              </p>
-            </a>
+                <p
+                  class="text-pink-600 text-xl text-center mt-5 border-teal-500 border rounded-xl py-6"
+                >
+                  Download my curriculum vitae here.
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>

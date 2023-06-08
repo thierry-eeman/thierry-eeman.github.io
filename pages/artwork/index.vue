@@ -9,7 +9,7 @@
           Artwork Overview
         </h1>
       </div>
-      <div id="cards" class="grid grid-cols-12 m-auto p-8 gap-8">
+      <div id="cards" class="grid grid-cols-12 m-auto p-8 gap-8 mx-32">
         <nuxt-link to="/artwork/reinhardt" class="col-span-3">
           <div
             class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
