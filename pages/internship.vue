@@ -62,7 +62,7 @@
               <span class="font-bold text-left text-blue-500"
                 >Project Scope:</span
               >
-              <a href="/" download="" class="hover:text-pink-500"
+              <a href="/" target="_blank" class="hover:text-pink-500"
                 >Project scope for the internship</a
               >
             </p>
@@ -72,7 +72,7 @@
               >
               <a
                 href="/PlanVanAanpak.pdf"
-                download=""
+                target="_blank"
                 class="hover:text-pink-500"
               >
                 Approach to a valid solution</a
@@ -93,8 +93,8 @@
                 >Reflection:</span
               >
               <a
-                href="/PlanVanAanpak.pdf"
-                download=""
+                href="/Reflectiedocument.pdf"
+                target="_blank"
                 class="hover:text-pink-500"
               >
                 Reflection on the entire internship</a

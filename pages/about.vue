@@ -64,7 +64,7 @@
             <div>
               <a
                 href="/Curriculum Vitae (2023) - Thierry Eeman.pdf"
-                download=""
+                target="_blank"
               >
                 <p
                   class="text-pink-600 text-xl text-center mt-5 border-teal-500 border rounded-xl py-6"
