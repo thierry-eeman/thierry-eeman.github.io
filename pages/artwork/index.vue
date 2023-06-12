@@ -8,11 +8,17 @@
         <h1 class="col-span-5 col-start-4 text-slate-200 text-4xl">
           Artwork Overview
         </h1>
+        <h2 class="col-span-2 col-start-4 col text-right text-teal-200 mr-32">
+          On this page you can find all the artworks that I've worked on during
+          my 3 year bachelor education at the IT Factory in Thomas More Geel
+          Belgium. These are part of my need for creative expression and
+          experimentation.
+        </h2>
       </div>
       <div id="cards" class="grid grid-cols-12 m-auto p-8 gap-8 mx-32">
         <nuxt-link to="/artwork/reinhardt" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-orange-800">
               Hardware Heroes
@@ -26,13 +32,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #001</p>
                 <p>Hardware Hero Reinhardt</p>
+                <p class="text-slate-500">
+                  Mash-up from various hardware components
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/astartes" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-orange-800">
               Hardware Heroes
@@ -46,13 +55,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #002</p>
                 <p>Hardware Hero Astartes</p>
+                <p class="text-slate-500">
+                  Mash-up from various hardware components
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/squares" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-teal-700">
               Creative Coding
@@ -66,13 +78,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #003</p>
                 <p>Squiggly Squares</p>
+                <p class="text-slate-500">
+                  Click and hold to draw pure randomness
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/reaper" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-orange-800">
               Hardware Heroes
@@ -86,13 +101,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #004</p>
                 <p>Hardware Hero Reaper</p>
+                <p class="text-slate-500">
+                  Mash-up from various hardware components
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/mandalorian" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-orange-800">
               Hardware Heroes
@@ -106,13 +124,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #005</p>
                 <p>Hardware Hero Mandalorian</p>
+                <p class="text-slate-500">
+                  Mash-up from various hardware components
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/ascii" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-teal-700">
               Creative Coding
@@ -126,13 +147,14 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #006</p>
                 <p>Ascii Art</p>
+                <p class="text-slate-500">Transform picture into ASCII</p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/ichigo" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-orange-800">
               Hardware Heroes
@@ -146,13 +168,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #007</p>
                 <p>Hardware Hero Ichigo Kurosaki</p>
+                <p class="text-slate-500">
+                  Mash-up from various hardware components
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/atoms" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-teal-700">
               Creative Coding
@@ -166,13 +191,16 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #008</p>
                 <p>Atom Particles</p>
+                <p class="text-slate-500">
+                  Dancing and bouncing atom particles
+                </p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/particles" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-teal-700">
               Creative Coding
@@ -186,13 +214,14 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #009</p>
                 <p>Image to Particle</p>
+                <p class="text-slate-500">Disturb the pixels...</p>
               </figcaption>
             </figure>
           </div>
         </nuxt-link>
         <nuxt-link to="/artwork/matrix" class="col-span-3">
           <div
-            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-64 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
+            class="bg-slate-800 col-span-3 h-auto rounded-2xl h-72 text-grey-darkest no-underline shadow-lg hover:shadow-2xl hover:scale-110 transition ease-in-out delay-50"
           >
             <h2 class="text-lg p-3 text-right uppercase text-teal-700">
               Creative Coding
@@ -206,6 +235,7 @@
               <figcaption class="text-center text-md py-5 text-slate-500">
                 <p>Artwork #010</p>
                 <p>Matrix Rain</p>
+                <p class="text-slate-500">The Matrix source code</p>
               </figcaption>
             </figure>
           </div>

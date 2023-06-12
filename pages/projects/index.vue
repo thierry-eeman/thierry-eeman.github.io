@@ -8,6 +8,11 @@
         <h1 class="col-span-5 col-start-4 text-slate-200 text-4xl">
           Project Overview
         </h1>
+        <h2 class="col-span-5 col-start-4 text-right text-teal-200 mr-24">
+          On this page you can find all the important projects that I've worked
+          on during my 3 year bachelor education at the IT Factory in Thomas
+          More Geel Belgium.
+        </h2>
         <!-- Row 2 -->
         <!-- Card 1 -->
         <div

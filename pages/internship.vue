@@ -62,7 +62,10 @@
               <span class="font-bold text-left text-blue-500"
                 >Project Scope:</span
               >
-              <a href="/" target="_blank" class="hover:text-pink-500"
+              <a
+                href="/ProjectScope.pdf"
+                target="_blank"
+                class="hover:text-pink-500"
                 >Project scope for the internship</a
               >
             </p>
