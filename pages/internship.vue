@@ -97,7 +97,13 @@
               <span class="font-bold text-left text-emerald-500"
                 >Realisation:</span
               >
-              In-depth report on my solution
+              <a
+                href="/Realisatiedocument.pdf"
+                target="_blank"
+                class="hover:text-pink-500"
+              >
+                In-depth report on my solution</a
+              >
             </p>
             <p class="text-slate-300 mt-4 text-lg">
               <span class="font-bold text-left text-orange-500"
