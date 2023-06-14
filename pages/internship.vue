@@ -82,8 +82,16 @@
               >
             </p>
             <p class="text-slate-300 mt-4 text-lg">
-              <span class="font-bold text-left text-lime-500">Planning:</span>
-              Overview of the internship phases
+              <span class="font-bold text-left text-lime-500"
+                >Project Architecture</span
+              >
+              <a
+                href="/Project Architecture (revised highres).drawio.png"
+                target="_blank"
+                class="hover:text-pink-500"
+              >
+                Drawing to illustrate the solution</a
+              >
             </p>
             <p class="text-slate-300 mt-4 text-lg">
               <span class="font-bold text-left text-emerald-500"
