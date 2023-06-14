@@ -62,7 +62,7 @@
           apply swarm intelligence to the Robocup project, such as dealing with
           limited communication, uncertainty, and fault-tolerance.
         </p>
-        <h3 class="font-bold mb-3">Conlusion</h3>
+        <h3 class="font-bold mb-3">Conclusion</h3>
         <p class="text-lg mb-16 text-justify">
           Overall, the Robocup project is an exciting application of swarm
           intelligence, and it is fascinating to see how simple interactions
@@ -70,6 +70,15 @@
           of swarm intelligence is still in its early stages, and there is much
           more to be discovered about how groups of agents can work together to
           accomplish tasks.
+        </p>
+        <h3 class="font-bold mb-3">Deliverable - Research Report</h3>
+        <p class="text-lg mb-16 text-justify">
+          As a result of my initial research, I created a document containing
+          information, references and code examples for all major popular swarm
+          intelligence algorithms. You can download it
+          <a href="/Swarm Intelligence Report.pdf" target="_blank"
+            ><span class="text-2xl text-lime-500">here</span></a
+          >.
         </p>
       </div>
     </div>

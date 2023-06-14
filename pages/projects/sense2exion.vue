@@ -89,6 +89,14 @@
           experience and a good opportunity to work on a real-world project and
           use our skills to provide solutions for real-world problems.
         </p>
+        <h3 class="font-bold mb-3">Deliverable - Functional Website</h3>
+        <p class="text-lg mb-16 text-justify">
+          The result of this project is a fully operational website that can be
+          viewed
+          <a href="https://sense-to-exion.azurewebsites.net/" target="_blank"
+            ><span class="text-2xl text-lime-500">here</span></a
+          >.
+        </p>
       </div>
     </div>
     <section class="overflow-hidden text-gray-700 mx-64">

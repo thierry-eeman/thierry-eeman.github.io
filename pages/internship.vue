@@ -1,7 +1,7 @@
 <template>
   <div class="inset-0 max-w-screen-2xl">
     <div
-      class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen px-16"
+      class="p-10 bg-gradient-to-b from-slate-900 to-slate-800 w-screen min-h-screen"
     >
       <PageHeader />
       <div class="grid grid-cols-5 m-5 p-5">
@@ -25,9 +25,9 @@
           <p class="text-slate-300 text-justify mb-6">
             During my internship at Resillion, I was assigned a challenging and
             intriguing project: to create a connection between the functional
-            testing performed by the Software Quality and Security (SQS)
-            department and the security testing executed by the team based in
-            the Netherlands. This project aimed to improve efficiency and
+            testing performed by the Software Quality Services (SQS) department
+            and the security testing executed by the team based in the
+            Netherlands. This project aimed to improve efficiency and
             effectiveness by leveraging existing resources and processes in a
             novel way.
           </p>

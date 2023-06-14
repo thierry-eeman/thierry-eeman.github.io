@@ -21,16 +21,21 @@
           in files on their harddrives. The next step for this ambitious project
           was to share this knowledge and provide access to these materials for
           the broader audience. This is were I came into play.
+          <span class="text-lg text-lime-500"
+            >Click on the image on the right to see the website</span
+          >
         </p>
       </div>
       <div class="col-span-3 mx-3 pl-4">
-        <figure>
-          <img
-            class="object-cover object-left-top rounded-xl drop-shadow-xl"
-            src="~/assets/images/Leescoach website screenshot 1.jpg"
-            alt=""
-          />
-        </figure>
+        <a href="https://leescoach.thomasmore.be" target="_blank"
+          ><figure>
+            <img
+              class="object-cover object-left-top rounded-xl drop-shadow-xl"
+              src="~/assets/images/Leescoach website screenshot 1.jpg"
+              alt=""
+            />
+          </figure>
+        </a>
       </div>
       <div class="col-span-2 col-start-1 mx-3 pl-4">
         <figure>
